@@ -27,8 +27,8 @@ class PersonServiceTest {
         personService.getAllPerson();
         verify(personRepo).findAll();
         /*
-        * means ki if personService.getAllPerson() ka result verify ho jayega
-        * verify(personRepo).findAll() ke result se..to ye TC apne se pass ho jayega
-        * */
+         * means ki if personService.getAllPerson() ka result verify ho jayega
+         * verify(personRepo).findAll() ke result se..to ye TC apne se pass ho jayega
+         * */
     }
 }
